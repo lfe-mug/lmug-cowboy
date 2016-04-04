@@ -1,15 +1,18 @@
 # lmug-cowboy
 
-*An lmug adapter that uses an embedded Cowboy web server*
+[![][lmug-logo]][lmug-logo-large]
 
-<img src="resources/images/lmug-cowboy.png" />
+[lmug-logo]: resources/images/lmug-cowboy.png
+[lmug-logo-large]: resources/images/lmug-cowboy-large.png
+
+*An lmug adapter for the Cowboy web server*
 
 
 ## Introduction
 
 This is a module for running a [Cowboy](https://github.com/ninenines/cowboy)
 embedded server as an
-[lmug adapter](https://github.com/lfex/lmug/blob/master/doc/SPEC.md#adapters).
+[lmug adapter](https://github.com/lfe-mug/lmug/blob/master/docs/SPEC.md#adapters).
 
 
 ## Installation
@@ -19,17 +22,17 @@ Just add it to your ``rebar.config`` deps:
 ```erlang
     {deps, [
         ...
-        {lmug-cowboy, ".*", {git, "git@github.com:lfex/lmug-cowboy.git", "master"}}
+        {lmug-cowboy, ".*", {git, "git@github.com:lfe-mug/lmug-cowboy.git", "master"}}
       ]}.
 ```
 
 And then do the usual:
 
 ```bash
-    $ rebar get-deps
-    $ rebar compile
+$ rebar3 compile
 ```
 
 
 ## Usage
 
+TBD
